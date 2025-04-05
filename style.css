@@ -1,0 +1,59 @@
+body {
+  background-image: url("https://www.shutterstock.com/image-photo/old-paper-texture-600nw-758024551.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.balsack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 100px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  width: 400px;
+  height: 550px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 40px;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  width: auto;
+  height: 550px;
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.startBtn {
+  background-color: #000000;
+  color: #436ca1;
+  font-size: 16px;
+  padding: 16px 32px;
+}
