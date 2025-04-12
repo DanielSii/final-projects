@@ -3,4 +3,17 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  text-align:center;
+}
+h1{
+  font-size: 100px;
+  margin: 0px;
+  color: #14224D;
+}
+h2{
+  margin: 0px;
+  color: #FFCD00;
+  text-shadow: -1px -1px 0 #14224D, 1px -1px 0 #14224D, -1px 1px 0 #14224D, 1px 1px 0 #14224D;
+  font-size: 45px;
+  text-align: left;
 }

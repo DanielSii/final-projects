@@ -12,10 +12,6 @@ body {
   justify-content: center;
   align-content: center;
 }
-h1 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  font-size: 100px;
-}
 
 .container {
   position: relative;
@@ -23,6 +19,7 @@ h1 {
 }
 
 .image {
+
   opacity: 1;
   width: 400px;
   height: 550px;
@@ -52,8 +49,14 @@ h1 {
 }
 
 .startBtn {
-  background-color: #000000;
-  color: #436ca1;
+  background-color: #14224D;
+  color:#FFCD00;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+h1{
+  font-size: 100px;
+  font-family: 'Courier New', monospace;
+  color: #14224D;
 }
